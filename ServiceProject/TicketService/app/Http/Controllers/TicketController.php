@@ -6,7 +6,7 @@ use illuminate\Http\Request;
 use Illuminate\Http\Response;
 use App\Models\Ticket;
 
-class ExampleController extends Controller
+class TicketController extends Controller
 {
     public function index()
     {
