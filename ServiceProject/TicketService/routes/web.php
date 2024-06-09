@@ -16,3 +16,6 @@
 $router->get('/', function () use ($router) {
     return $router->app->version();
 });
+
+$router->get('/ticket/index', 'TicketController@index');
+$router->post('/ticket/store', 'TicketController@store');
